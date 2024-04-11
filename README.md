@@ -1,3 +1,3 @@
-"@handlebars/allow-prototype-access": "^1.0.5",
+# PROVA 01
 
-const {allowInsecurePrototypeAccess} = require("@handlebars/allow-prototype-access");
+Programação Multi Plataforma
