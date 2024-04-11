@@ -1,0 +1,38 @@
+<section class="container">
+    <h1>Tela de Edição</h1>
+
+
+    <form action="/update/{{ id }}" method="POST">
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" name="name" value="{{data.name}}" placeholder="Digite o nome">
+        </div>
+
+        <div class="form-group">
+            <label for="endereco">Endereço:</label>
+            <input type="text" class="form-control" id="endereco" name="address" value="{{data.address}}" placeholder="Digite o endereço">
+        </div>
+
+        <div class="form-group">
+            <label for="bairro">Bairro:</label>
+            <input type="text" class="form-control" id="bairro" name="neighborhood" value="{{data.neighborhood}}" placeholder="Digite o bairro">
+        </div>
+
+        <div class="form-group">
+            <label for="cep">CEP:</label>
+            <input type="text" class="form-control" id="cep" name="zipcode" value="{{data.zipcode}}" placeholder="Digite o CEP">
+        </div>
+
+        <div class="form-group">
+            <label for="cidade">Cidade:</label>
+            <input type="text" class="form-control" id="cidade" name="city" value="{{data.city}}" placeholder="Digite a cidade">
+        </div>
+
+        <div class="form-group">
+            <label for="estado">Estado:</label>
+            <input type="text" class="form-control" id="estado" name="state" value="{{data.state}}" placeholder="Digite o estado">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Editar</button>
+    </form>
+</section>

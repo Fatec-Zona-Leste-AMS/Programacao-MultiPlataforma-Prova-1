@@ -1,0 +1,20 @@
+{
+  "name": "prova",
+  "version": "1.0.0",
+  "description": "prova do jeferson feito por jefferson",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Jefferson Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.1",
+    "express-handlebars": "^7.1.2",
+    "handlebars": "^4.7.8",
+    "mysql2": "^3.9.2",
+    "sequelize": "^6.37.1"
+  }
+}

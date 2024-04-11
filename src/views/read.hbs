@@ -1,0 +1,26 @@
+<section class="container">
+    <h1>Tela de Consulta</h1>
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cidade</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {{#each data}}
+                <tr>
+                    <td>{{this.name}}</td>
+                    <td>{{this.city}}</td>
+                    <td>
+                        <a href="/update/{{this.id}}" class="btn btn-primary">Editar</a>
+                        <button class="btn btn-danger" disabled>Excluir</button>
+                    </td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</section>
